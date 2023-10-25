@@ -1,0 +1,65 @@
+* {
+    text-align: center;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+body {
+    background-color: rgb(100, 100, 110);
+}
+
+h1 {
+    color: rgb(255, 100, 100);
+    font-size: 75px;
+    border-bottom: black solid 5px;
+    width: 650px;
+    margin: 20px auto;
+    font-family: Times, sans-serif;
+}
+h2 {
+    color: rgb(200, 200, 255);
+}
+div {
+    margin: auto;
+}
+.nav {
+    border: black solid 3px;
+    width: 300px;
+}
+.nav div {
+    width: 225px;
+}
+.nav ul li {
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 5px;
+    color: black;
+}
+.nav a {
+    color: rgb(140, 140, 255);
+}
+.description {
+    width: 550px;
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;
+}
+.ingredients {
+    width: 500px;
+    border-bottom: solid black 2px;
+}
+.ingredients li {
+    text-align: left;
+}
+.steps {
+    width: 500px;
+    margin-bottom: 50px;
+}
+.steps li {
+    text-align: left;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+ol li span {
+    font-weight: normal;
+}
+div p, div li {
+    color: rgb(255, 200, 200);
+}
